@@ -3,6 +3,7 @@
 **Packages:**
 
   `pip install pillow`
+  
   `pip install matplotlib`
 
 **Terminal commands to access your IP_ADDRESS:**
