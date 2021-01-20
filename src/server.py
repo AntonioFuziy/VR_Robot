@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from IP import IP_ADDRESS
 
 server_socket = socket.socket()
-server_socket.bind(IP_ADDRESS, 8000)
+server_socket.bind((IP_ADDRESS, 8000))
 server_socket.listen(0)
 
 connection = server_socket.accept()[0].makefile("rb")
